@@ -7,7 +7,7 @@ const Intro = () => {
         <div className="introContainer">
             <div className="introText">
                 <p>Hello I am</p>
-                <Heading>Suraj Vishwakarma</Heading>
+                <Heading>Suraj<span style={{color:"#d53f8c"}}> Vishwakarma</span></Heading>
                 <p style={{color:"#ffa97a"}}>Web Developer and Technical Writer</p>
             </div>
             <Stack direction='row' spacing={4} align='center' style={{margin:"1.5em 0"}}>
@@ -18,7 +18,7 @@ const Intro = () => {
                     About
                 </Button>
             </Stack>
-            <Box className="profile" w='275px' h='275px' bgGradient='linear(#FFA97A, rgba(248,242,244,0.5))'>
+            <Box className="profile" w='275px' h='275px' bgGradient='linear(#FFA97A , rgba(248,242,244,0.5))'>
                 <Image alt="Suraj Vishwakarma Image" src={profile}/>
             </Box>
         </div>
