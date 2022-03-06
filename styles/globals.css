@@ -164,3 +164,13 @@ li {
   justify-content: center;
   align-items: center;
 }
+
+.workAboutExtended {
+  color: "black";
+  border-color: "#ffa97a";
+  background-color: "#ffa97a";
+}
+
+workAboutExtended:hover {
+  background-color: #cc8762;
+}
