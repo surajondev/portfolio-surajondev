@@ -12,6 +12,7 @@ export default function Home() {
     <div className='main'>
       <Head>
         <title>Suraj Vishwakarma 🧑‍💻</title>
+        <meta name="google-site-verification" content="6eReh_wvunfvtZ0hbAvN2CgVnaL4XTpu_f1h5l6JCb0" />
       </Head>
       <Header />
       <Intro />
