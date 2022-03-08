@@ -5,7 +5,7 @@ const CollabImg = ({link, src, alt}) => {
         <Link href={link} passhref _focus={{boxBorder:"none"}}>
             <Image
                 borderRadius='full'
-                boxSize='120px'
+                boxSize="80px"
                 src={src}
                 alt={alt}
             />
