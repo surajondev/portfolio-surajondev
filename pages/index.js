@@ -6,6 +6,7 @@ import Skill from '../components/Skill'
 import Work from '../components/Work'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import Collaboration from '../components/Collaboration'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <About/>
       <Skill />
       <Work />
+      <Collaboration />
       <Contact />
       <Footer />
     </div>
