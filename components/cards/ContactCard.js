@@ -5,7 +5,7 @@ import Link from "next/link"
 
 const ContactCard = ({padding, size, backgroundColor}) => {
     return(
-        <div className="detailContainer" style={{justifyContent:"space-evenly", width:"30%", margin:"1.5em auto"}}>
+        <div className="contact" >
             <Link passHref={true} href="https://twitter.com/surajondev">
                 <div className="contactCard" style={{padding, backgroundColor}}>
                     <IconContext.Provider value={{ color: "#ffa97a", size}}>

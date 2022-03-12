@@ -89,11 +89,19 @@ li {
   background-color: #111a20;
 }
 
-.detailContainer {
+.detailContainer,
+.media,
+.contact {
   margin-top: 2em;
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.contact {
+  justify-content: space-between;
+  width: 25%;
+  margin: 1.5em auto;
 }
 
 .aboutCardContainer {
@@ -175,9 +183,36 @@ workAboutExtended:hover {
   background-color: #cc8762;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1120px) {
+  .aboutContainer {
+    width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .skillContainer {
+    width: 45%;
+  }
+
   .detailContainer {
     flex-direction: column;
     align-items: center;
+  }
+
+  .contact {
+    width: 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .skillContainer {
+    width: 80%;
+  }
+  li {
+    display: none;
+  }
+
+  .contact {
+    width: 70%;
   }
 }

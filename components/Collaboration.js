@@ -6,7 +6,7 @@ const Collaboration = () => {
         <div className="aboutContainer">
             <Heading style={{color:"#ffa97a"}}>My Collaboration</Heading>
             <p style={{color:"#767676", fontWeight:"bold"}}>I have worked with</p>
-            <div className="detailContainer" style={{justifyContent:"center"}}>
+            <div className="media" style={{justifyContent:"center", flexWrap: "wrap"}}>
                 <CollabImg 
                     link="https://www.spurwing.io/" 
                     src="https://avatars.githubusercontent.com/u/87380658?s=280&v=4" 
