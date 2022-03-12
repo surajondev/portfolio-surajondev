@@ -98,6 +98,10 @@ li {
   width: 100%;
 }
 
+.aboutRight {
+  width: 50%;
+}
+
 .contact {
   justify-content: space-between;
   width: 25%;
@@ -105,6 +109,7 @@ li {
 }
 
 .aboutCardContainer {
+  margin-top: 2.5em;
   background-color: #182228;
   padding: 1em 2em;
   margin-right: 1em;
@@ -117,9 +122,9 @@ li {
 }
 
 .aboutCardStyle {
-  margin-top: 2.5em;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .skillContainer {
@@ -197,16 +202,28 @@ workAboutExtended:hover {
   .detailContainer {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutRight {
+    width: 90%;
+    margin-top: 1em;
   }
 
   .contact {
     width: 40%;
   }
+
+  .aboutCardStyle {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
   .skillContainer {
-    width: 80%;
+    width: 100%;
   }
   li {
     display: none;

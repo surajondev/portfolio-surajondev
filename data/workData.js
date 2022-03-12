@@ -1,5 +1,12 @@
 export default [
     {
+        name:"Introduction to APIs with repositories to get you started",
+        img:"https://res.cloudinary.com/practicaldev/image/fetch/s--3w3OIq9_--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x081d8dt6fjo5cvsgqfw.png",
+        tag:"Writing",
+        link:"https://updivision.com/blog/post/introduction-to-apis-and-3-repositories-to-get-you-started",
+        href:"Read More"
+    },
+    {
         name:"react-tracking: Declarative tracking for React apps",
         img:"https://blog.logrocket.com/wp-content/uploads/2022/01/react-declarative-tracking.png",
         tag:"Writing",
