@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Suraj Vishwakarma 🧑‍💻</title>
         <meta name="google-site-verification" content="6eReh_wvunfvtZ0hbAvN2CgVnaL4XTpu_f1h5l6JCb0" />
-        <script async defer data-website-id="27065272-7b60-4440-8ebd-e98de2a71a25" src="http://localhost:3000/umami.js"></script>
+        <script async defer data-website-id="27065272-7b60-4440-8ebd-e98de2a71a25" src="https://umami-analytics-seven.vercel.app/umami.js"></script>
       </Head>
       <Header />
       <Intro />
